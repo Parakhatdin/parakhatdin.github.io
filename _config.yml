@@ -1,0 +1,34 @@
+# Site settings
+title: Parakhatdin Nuratdinov
+email: nuratdinov.p@gmail.com
+description: >-
+  Software engineer's portfolio.
+baseurl: ""
+url: "https://parakhatdin.github.io"
+github_username: parakhatdin
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Silence Sass deprecation warnings from minima 2.5.2
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+
+# Exclude from processing.
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
